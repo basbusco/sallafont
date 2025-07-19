@@ -15,16 +15,12 @@
     U+FEFF, U+FFFD;
 }
 
-/* Universal selectors for maximum override */
+/* Force Asomy font everywhere */
 html, body, *, *:before, *:after {
-  font-family: "Asomy" !important;
+  font-family: "Asomy", cursive !important;
 }
 
-/* Try to catch common Salla classes (add more from your theme if needed) */
-.salla-body, .salla-content, .salla-main, .salla-header, .salla-footer, .main-content, .container, .wrapper {
-  font-family: "Asomy" !important;
-}
-
+/* Headings (just for reference, weight stays) */
 h1 {
   font-weight: 700;
 }
