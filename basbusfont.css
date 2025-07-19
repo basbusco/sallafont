@@ -2,7 +2,7 @@
   font-family: "Asomy";
   font-style: normal;
   font-weight: 400;
-  src: url("https://raw.githubusercontent.com/basbusco/sallafont/main/arfonts-dg-3asomy-thin.ttf") format("truetype");
+  src: url(arfonts-dg-3asomy-thin.ttf) format("truetype");
   font-display: swap;
 }
 
