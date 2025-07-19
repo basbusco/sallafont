@@ -15,11 +15,12 @@
     U+FEFF, U+FFFD;
 }
 
-body {
-  font-family: "Asomy", cursive;
-  text-align: center;
+/* Force Asomy font everywhere */
+html, body, *, *:before, *:after {
+  font-family: "Asomy", cursive !important;
 }
 
+/* Headings (just for reference, weight stays) */
 h1 {
   font-weight: 700;
 }
